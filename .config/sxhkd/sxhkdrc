@@ -166,7 +166,7 @@ XF86MonBrightnessDown
 
 # Screenshot
 Print
-  maim | xclip -selection clipboard -t image/png
+  maim ~/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png
 
 shift + Print
     maim -s | xclip -selection clipboard -t image/png
