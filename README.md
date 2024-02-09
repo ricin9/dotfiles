@@ -1,3 +1,6 @@
-# test
+## main dependencies
 
-hello
+```
+bspwm sxhkd picom dunst polybar yazi neovim rofi kitty
+```
+
