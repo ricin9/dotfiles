@@ -143,16 +143,13 @@ super + {Left,Down,Up,Right}
 
 # Multimedia keys
 XF86AudioRaiseVolume
-  amixer -q set Master 5%+ unmute
-
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
 # Still multimedia
 XF86AudioLowerVolume
-  amixer -q set Master 5%- unmute
-
+    pactl set-sink-volume @DEFAULT_SINK@ -5%
 # still
 XF86AudioMute
-  amixer -D pulse sset Master toggle-mute
-  
+    pactl set-sink-mute @DEFAULT_SINK@ toggle 
 # amixer -q set Master toggle
 # Simple amixer command seems to have problems unmuting device
 
