@@ -46,7 +46,7 @@ dunst &
 # Polkit
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # Wallpaper
-feh --bg-fill ~/Pictures/gruvbox_room.png
+feh --bg-fill ~/Pictures/birds_on_top_of_a_bus.jpg
 # Dex
 dex -a -s /etc/xdg/autostart/:~/.config/autostart/  &
 # Picom

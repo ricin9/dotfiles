@@ -175,7 +175,7 @@ super + w
   firefox
 
 super + e
-  kitty yazi
+  thunar 
 
 super + F1
   ~/.config/bspwm/scripts/keybindings_rofi.sh
@@ -186,3 +186,4 @@ super + F2
 # onboard keyb
 super + equal
   dbus-send --type=method_call --print-reply --dest=org.onboard.Onboard /org/onboard/Onboard/Keyboard org.onboard.Onboard.Keyboard.ToggleVisible
+

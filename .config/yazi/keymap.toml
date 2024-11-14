@@ -3,3 +3,6 @@ on   = [ "y" ]
 exec = [ "yank", '''
 	shell --confirm 'echo "$@" | xclip -i -selection clipboard -t text/uri-list'
 ''' ]
+
+[manager]
+sort_dir_first = true
