@@ -1,0 +1,7 @@
+appimagelauncher-bin
+arc-gtk-theme
+systemd-numlockontty
+temporal-cli
+ttf-icomoon-feather
+ttf-meslo
+ttf-meslo-nerd-font-powerlevel10k
