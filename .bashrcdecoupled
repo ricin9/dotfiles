@@ -1,0 +1,7 @@
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias keyfr='setxkbmap -option grp:alt_shift_toggle fr,ara'
+export PATH="$HOME/.local/bin:$PATH"
+export EDITOR=nvim
+
+export PS1="\[$(tput setaf 47)\]\u\[$(tput setaf 156)\]@\[$(tput setaf 227)\]\h \[$(tput setaf 231)\]\w \[$(tput sgr0)\]$ "
