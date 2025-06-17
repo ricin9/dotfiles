@@ -163,6 +163,10 @@ XF86MonBrightnessUp
 XF86MonBrightnessDown
   xbacklight -dec 5
 
+# Turn off screen
+super + shift + x
+  sleep 0.1 && xset dpms force off
+
 # Screenshot
 Print
   maim ~/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png

@@ -62,7 +62,7 @@ xsetroot -cursor_name left_ptr &
 ~/.config/bspwm/scripts/low_bat_notifier.sh &
 
 # Keyboard layout
-setxkbmap -option grp:alt_shift_toggle fr,ara & 
+# setxkbmap -option grp:alt_shift_toggle fr,ara & 
 #DISPLAY=:0 keyb &
 
 # kill firewall applet
