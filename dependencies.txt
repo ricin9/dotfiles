@@ -21,19 +21,19 @@ feh
 ffmpegthumbnailer
 firefox
 fzf
+gamemode
 gamescope
 gdu
 ghostty
 go
-gpick
 gutenprint
 htop
 i3lock
+img2pdf
 inetutils
 intel-ucode
 jq
 kdeconnect
-kitty
 lib32-giflib
 lib32-gst-plugins-base-libs
 lib32-gtk3
@@ -43,7 +43,6 @@ lib32-ocl-icd
 lib32-openal
 lib32-v4l-utils
 linux-lts
-lutris
 maim
 mpv
 neovim
@@ -54,7 +53,6 @@ ninja
 numlockx
 obs-studio
 pavucontrol
-pdfarranger
 pdftk
 picom
 polkit-gnome
@@ -76,9 +74,10 @@ ttf-jetbrains-mono
 ttf-opensans
 unarchiver
 uv
+vulkan-tools
 webkit2gtk
 wget
-xed
+winetricks
 xf86-video-intel
 xf86-video-vesa
 xorg-bdftopcf
@@ -101,6 +100,7 @@ xorg-xcursorgen
 xorg-xdpyinfo
 xorg-xdriinfo
 xorg-xev
+xorg-xgamma
 xorg-xhost
 xorg-xinit
 xorg-xinput
@@ -115,5 +115,4 @@ xorg-xsetroot
 xorg-xvinfo
 xorg-xwd
 xorg-xwud
-xournalpp
 xsettingsd
