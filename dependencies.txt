@@ -42,7 +42,6 @@ lib32-mpg123
 lib32-ocl-icd
 lib32-openal
 lib32-v4l-utils
-linux-lts
 maim
 mpv
 neovim
@@ -66,6 +65,7 @@ repgrep
 rhythmbox
 rofi-calc
 simple-scan
+socat
 steam
 stow
 system-config-printer

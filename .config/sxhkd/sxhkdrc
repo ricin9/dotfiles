@@ -169,7 +169,7 @@ super + shift + x
 
 # Screenshot
 Print
-  maim ~/Pictures/$(date +%s).png | xclip -selection clipboard -t image/png
+  maim | xclip -selection clipboard -t image/png
 
 shift + Print
     maim -s | xclip -selection clipboard -t image/png
